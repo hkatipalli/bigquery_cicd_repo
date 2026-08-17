@@ -1,3 +1,4 @@
+
 create table `bigquery-dev-505515.sample.customers`
 (
     customer_id INT64,
@@ -5,3 +6,4 @@ create table `bigquery-dev-505515.sample.customers`
     email STRING,
     created_date DATE
 );
+

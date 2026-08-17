@@ -3,7 +3,7 @@ name: BigQuery Deployment
 on:
   push:
     branches:
-      - development
+      - develpoment
 
 jobs:
 
