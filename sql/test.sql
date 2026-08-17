@@ -1,2 +1,7 @@
-create table `bigquery-dev-505515.sample.test` as 
-SELECT 1 as id
+create table `bigquery-dev-505515.sample.customers`
+(
+    customer_id INT64,
+    customer_name STRING,
+    email STRING,
+    created_date DATE
+);
